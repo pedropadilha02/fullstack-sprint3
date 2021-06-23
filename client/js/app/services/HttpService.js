@@ -1,5 +1,12 @@
 class HttpService {
+  
   get(url) {
+    return fetch(url, {method:'GET'})
+      .then(res => res.json())
+      .then(res => res)
+  }
+}
+  /* get(url){
     return new Promise((resolve, reject) => {
       let xhr = new XMLHttpRequest();
 
@@ -18,7 +25,7 @@ class HttpService {
       xhr.send();
     });
   }
-
+  
   post(url, data) {
     return new Promise((resolve, reject) => {
       let xhr = new XMLHttpRequest();
@@ -39,3 +46,4 @@ class HttpService {
     });
   }
 }
+*/

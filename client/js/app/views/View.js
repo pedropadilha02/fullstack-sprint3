@@ -7,7 +7,7 @@ class View {
     throw new Error('O método "template" deve ser implementado');
   }
 
-  update(model) {
-    this._element.innerHTML = this.template(model);
+  update(data) {
+    this._element.innerHTML = this.template(data);
   }
 }
