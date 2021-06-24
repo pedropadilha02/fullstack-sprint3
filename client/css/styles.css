@@ -246,13 +246,14 @@ html input {
   padding: 8px;
   max-width: 230px;
   display: block;
+  transition: 0.5s;
 }
 .main__products .products__card .card:hover {
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .main__products .products__card .card__img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 100%;	
 }
 .main__products .products__card .card__description {
   font-size: 0.6875rem;
@@ -454,6 +455,7 @@ html input {
 .footer__bottom .copyright__stamp {
   margin: 0 auto;
 }
+
 
 .invisible{
   display: none;
